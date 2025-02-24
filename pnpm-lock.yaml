@@ -11,6 +11,9 @@ importers:
       solid-js:
         specifier: ^1.9.3
         version: 1.9.3
+      zod:
+        specifier: ^3.24.2
+        version: 3.24.2
     devDependencies:
       typescript:
         specifier: ^5.7.2
@@ -588,6 +591,9 @@ packages:
   yallist@3.1.1:
     resolution: {integrity: sha512-a4UGQaWPH59mOXUYnAG2ewncQS4i4F43Tv3JoAM+s2VDAmS9NsK8GpDMLrCHPksFT7h3K6TOoUNn2pb7RoXx4g==}
 
+  zod@3.24.2:
+    resolution: {integrity: sha512-lY7CDW43ECgW9u1TcT3IoXHflywfVqDYze4waEz812jR/bZ8FHDsl7pFQoSZTz5N+2NqRXs8GBwnAwo3ZNxqhQ==}
+
 snapshots:
 
   '@ampproject/remapping@2.3.0':
@@ -1063,3 +1069,5 @@ snapshots:
       vite: 6.0.0
 
   yallist@3.1.1: {}
+
+  zod@3.24.2: {}
