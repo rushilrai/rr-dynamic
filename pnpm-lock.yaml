@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@tanstack/solid-query':
+        specifier: ^5.66.9
+        version: 5.66.9(solid-js@1.9.3)
       solid-js:
         specifier: ^1.9.3
         version: 1.9.3
@@ -359,6 +362,14 @@ packages:
     resolution: {integrity: sha512-3j4jx1TppORdTAoBJRd+/wJRGCPC0ETWkXOecJ6PPZLj6SptXkrXcNqdj0oclbKML6FkQltdz7bBA3rUSirZug==}
     cpu: [x64]
     os: [win32]
+
+  '@tanstack/query-core@5.66.4':
+    resolution: {integrity: sha512-skM/gzNX4shPkqmdTCSoHtJAPMTtmIJNS0hE+xwTTUVYwezArCT34NMermABmBVUg5Ls5aiUXEDXfqwR1oVkcA==}
+
+  '@tanstack/solid-query@5.66.9':
+    resolution: {integrity: sha512-HsG1LrCxNa7yi2mfkXBguUXvWKUMnn3oeYtgBrMCxs10TOMUT9qb/ho3rGCRqIrMLsnrB82MRtN8glSNqUfw/w==}
+    peerDependencies:
+      solid-js: ^1.6.0
 
   '@types/babel__core@7.20.5':
     resolution: {integrity: sha512-qoQprZvz5wQFJwMDqeseRXWv3rqMvhgpbXFfVyWhbx9X47POIA6i/+dXefEmZKoAgOaTdaIgNSMqMIU61yRyzA==}
@@ -852,6 +863,13 @@ snapshots:
 
   '@rollup/rollup-win32-x64-msvc@4.27.4':
     optional: true
+
+  '@tanstack/query-core@5.66.4': {}
+
+  '@tanstack/solid-query@5.66.9(solid-js@1.9.3)':
+    dependencies:
+      '@tanstack/query-core': 5.66.4
+      solid-js: 1.9.3
 
   '@types/babel__core@7.20.5':
     dependencies:
