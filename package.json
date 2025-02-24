@@ -11,13 +11,24 @@
   },
   "license": "MIT",
   "devDependencies": {
+    "@types/node": "^22.13.5",
+    "daisyui": "5.0.0-beta.8",
+    "prettier": "^3.5.2",
+    "prettier-plugin-tailwindcss": "^0.6.11",
     "typescript": "^5.7.2",
     "vite": "^6.0.0",
     "vite-plugin-solid": "^2.11.1"
   },
   "dependencies": {
+    "@modular-forms/solid": "^0.25.0",
+    "@solidjs/router": "^0.15.3",
+    "@tailwindcss/vite": "^4.0.8",
     "@tanstack/solid-query": "^5.66.9",
+    "axios": "^1.7.9",
+    "dayjs": "^1.11.13",
+    "motion": "^12.4.7",
     "solid-js": "^1.9.3",
+    "tailwindcss": "^4.0.8",
     "zod": "^3.24.2"
   }
 }
