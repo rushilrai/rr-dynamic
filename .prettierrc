@@ -4,6 +4,6 @@
   "useTabs": false,
   "singleQuote": false,
   "semi": true,
-  "tailwindStylesheet": "./src/index.css",
+  "tailwindStylesheet": "./src/modules/common/configs/index.css",
   "plugins": ["prettier-plugin-tailwindcss"]
 }

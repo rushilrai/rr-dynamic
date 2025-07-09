@@ -2,6 +2,8 @@
   "name": "rr-dynamic",
   "version": "0.0.0",
   "description": "",
+  "author": "Rushil Rai",
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "start": "vite",
@@ -9,7 +11,6 @@
     "build": "vite build",
     "serve": "vite preview"
   },
-  "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.5",
     "daisyui": "5.0.0-beta.8",
@@ -26,6 +27,7 @@
     "@tanstack/solid-query": "^5.66.9",
     "axios": "^1.7.9",
     "dayjs": "^1.11.13",
+    "lucide-solid": "^0.525.0",
     "motion": "^12.4.7",
     "solid-js": "^1.9.3",
     "tailwindcss": "^4.0.8",

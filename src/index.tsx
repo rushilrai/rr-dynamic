@@ -1,7 +1,7 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
 
-import "./index.css";
+import "./common/configs/index.css";
 import { RouterWrapper } from "./modules/common/components/RouterWrapper";
 import { initAxios } from "./modules/common/configs/axios.config";
 
